@@ -69,16 +69,16 @@ $('.responsive').slick({
   dots:false,
   infinite: false,
   speed: 300,
-  slidesToShow: 4,
+  slidesToShow: 5,
   slidesToScroll: 1,
   responsive: [
     {
-      breakpoint: 1024,
+      breakpoint: 1200,
       settings: {
-        slidesToShow: 3,
+        slidesToShow: 4,
         slidesToScroll: 1,
         infinite: true,
-        dots: true
+        dots:false
       }
     },
     {
